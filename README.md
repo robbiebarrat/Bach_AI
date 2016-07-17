@@ -8,7 +8,7 @@ Here's an example: https://www.noteflight.com/scores/view/c89c26b9f26aaab8aa3aff
 It all runs on python 2.7
 
 
-You'll need pybrain
+You'll need pybrainv
 
     pip install pybrain
 and midiutil
@@ -29,7 +29,7 @@ parse midi.py is what turns the output of the neural network into a MID file.
 
 # How to use
 
-With everything set up in the same directory, it will be fairly easy. Simply run musicnetwork.py and it will print the dataset it's using, followed by the songs it produces at varios epochs. The network will train on the dataset for one epoch, and then print a song. It does this forever, so you can just let it run for a while and then turn the latest song into a MID file. To do this, you will need to copy and paste. musicnetwork.py will output something like this:
+With everything set up in the same directory, it will be fairly easy. Simply run musicnetwork.py and it will print the dataset it's using, followed by the songs it produces at various epochs. The network will train on the dataset for one epoch, and then print a song. It does this forever, so you can just let it run for a while and then turn the latest song into a MID file. To do this, you will need to copy and paste. musicnetwork.py will output something like this:
 
     [[5, 2, 1, 1, 0], [7, 8, 1, 1, 0], [27, 4, 0, 2, 0], [26, 11, 0, 2, 0], [19, 3, 0, 1, 0], [16, 4, 0, 1, 0], [16, 1, 1, 1, 0], [15, 3, 1, 1, 0], [13, 2, 2, 1, 0], [14, 4, 2, 1, 0], [11, 2, 2, 0, 0], [7, 3, 2, 0, 0], [5, 5, 1, 0, 0], [8, 4, 1, 0, 0], [5, 5, 0, 1, 0], [6, 6, 0, 1, 0], [6, 0, 3, 1, 0], [10, 6, 3, 1, 0], [11, 2, 2, 1, 0], [14, 5, 2, 1, 0], [-3, 3, 2, 0, 0], [-2, 1, 2, 0, 0], [9, 2, 2, 0, 0], [2, -1, 2, 0, 0], [9, 3, 1, 0, 0], [4, 1, 1, 0, 0], [2, 3, 0, 0, 0], [-4, -3, 0, 0, 0], [-1, 10, 0, 0, 0], [-8, 0, 0, 0, 0], [-2, 1, 1, 0, 0], [-12, 1, 1, 0, 0], [4, 3, 2, 0, 0], [-5, 9, 2, 0, 0], [3, 0, 3, 0, 0], [-1, 4, 3, 0, 0], [0, 0, 2, 0, 0], [-2, 6, 2, 0, 0], [-3, 2, 1, 0, 0], [-8, 0, 1, 0, 0], [-4, 6, 0, 0, 0], [-7, 1, 0, 0, 0], [-4, 4, 1, 0, 0], [2, 3, 1, 0, 0], [1, 0, 3, 0, 0], [12, 1, 3, 0, 0], [6, -1, 4, 0, 0], [14, 4, 4, 0, 0], [7, -1, 5, 0, 0], [19, 1, 5, 0, 0], [7, -1, 3, 0, 0], [13, 5, 3, 0, 0], [5, -2, 2, 0, 0], [10, 6, 2, 0, 0], [0, 2, 2, 0, 0], [9, -1, 2, 0, 0], [-2, 3, 1, 0, 0], [10, 5, 1, 0, 0], [1, 7, 1, 0, 0], [14, 3, 1, 0, 0], [-8, 0, 2, 0, 0], [12, 6, 2, 0, 0], [-1, -1, 0, 0, 0], [14, 6, 0, 0, 0], [-1, -2, 3, 0, 0], [17, 7, 3, 0, 0], [-3, 0, 1, 0, 0], [3, 8, 1, 0, 0], [-8, 10, 0, 0, 0], [1, 9, 0, 0, 0], [2, 3, 0, 0, 0], [-1, 4, 0, 0, 0], [0, 10, 0, 0, 0], [1, 6, 0, 0, 0], [3, 2, 1, 0, 0], [3, 4, 1, 0, 0], [5, 5, 0, 0, 0], [3, 1, 0, 0, 0], [-3, 2, 1, 0, 0], [8, 1, 1, 0, 0], [-5, 3, 1, 0, 0], [6, 2, 1, 0, 0], [-4, 3, 1, 0, 0], [5, 4, 1, 0, 0], [-2, 0, 2, 0, 0], [4, 0, 2, 0, 0], [0, 1, 1, 0, 0], [9, 3, 1, 0, 0], [5, -1, 3, 0, 0], [13, 1, 3, 0, 0], [4, 0, 2, 0, 0], [10, 0, 2, 0, 0], [5, 0, 2, 0, 0], [12, 3, 2, 0, 0], [3, 3, 3, 0, 0], [6, 8, 3, 0, 0], [15, 6, 1, 0, 0], [10, 6, 1, 0, 0], [18, 7, 0, 0, 0], [13, 9, 0, 0, 0]]
 
