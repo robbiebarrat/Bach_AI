@@ -1,3 +1,5 @@
+## This is a super old project! I did this when I was first learning about neural networks; please don't judge me too hard based on what you find in this repo ;)
+
 # Bach_AI
 LSTM Neural Network (python 2.7) that writes piano melodies similar to Bach's.
 
